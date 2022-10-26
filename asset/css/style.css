@@ -1,0 +1,105 @@
+body {
+  background: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+p {
+  margin-top: 1rem;
+}
+
+input:focus, textarea:focus, .btn:focus {
+  box-shadow: none !important;
+}
+
+/* ===== Header ===== */
+.navbar {
+  border-bottom: 3px solid #008ed6;
+  background: #333;
+  opacity: 0.8;
+}
+.navbar a.active {
+  color: #008ed6 !important;
+}
+
+/* ===== Home ===== */
+#home {
+  background: url("../img/home.jpg") no-repeat fixed center top/cover;
+}
+#home .dark-overlay {
+  background: rgba(0, 0, 0, 0.7);
+}
+#home .dark-overlay .home-inner {
+  padding-top: 150px;
+  padding-bottom: 91px;
+}
+#home .dark-overlay .home-inner .fa {
+  background: #fff;
+  color: #008ed6;
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+#home .dark-overlay .home-inner p {
+  margin-top: 1rem;
+}
+#home .dark-overlay .home-inner .card-form {
+  opacity: 0.8;
+}
+#home .dark-overlay .home-inner .card-form .form-group {
+  margin-bottom: 1rem;
+}
+
+/* ===== Explore ===== */
+#explore .main .fa {
+  background: #333;
+  color: #fff;
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+/* ===== Create ===== */
+#create .main .fa {
+  background: #fff;
+  color: #008ed6;
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+/* ===== Share ===== */
+#share .main .fa {
+  background: #333;
+  color: #fff;
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+/* ===== Footer ===== */
+footer {
+  margin-top: auto;
+}
+@media screen and (max-width: 350px) {
+  footer .col {
+    flex: 0 0 auto;
+    width: 100%;
+    text-align: center !important;
+  }
+  footer .col:nth-child(2) {
+    margin-top: 1rem;
+  }
+}
+
+/* ===== Contact Modal ===== */
+#contact-modal .form-group {
+  margin-bottom: 1rem;
+}
+#contact-modal .form-group textarea {
+  resize: none;
+}
+
+/*# sourceMappingURL=style.css.map */
